@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>生日快乐</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffccff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .birthday-message {
+    background: linear-gradient(to right, #ff99cc, #ffccff);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-size: 24px;
+    color: #ffffff;
+    animation: fadeIn 2s ease-out;
+  }
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+</style>
+</head>
+<body>
+<div class="birthday-message">
+  生日快乐！愿你的生活充满欢笑和幸福！
+</div>
+</body>
+</html>
